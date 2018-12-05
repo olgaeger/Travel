@@ -1,0 +1,427 @@
+.container-fluid{
+    background-color: red;
+    height: 5537px;
+    width: 1400px;
+    margin: 0;
+	padding: 0;
+	border: 0;
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;     
+    /*определить какой шрифт*/
+}
+
+/* Первый блок "Заглавный" */
+
+.selection{
+    width: 100%;
+    height: 785px;
+    background-color: #7fa9a9;
+    background-image: url(images/neil-rosenstech-762142-unsplash2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}  
+.row{
+    height: 48px;
+    margin-left: 60px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h1, p{
+    text-align: center;
+    margin-bottom: 0px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+}
+.dropdown{
+    display: flex; 
+    justify-content: space-around; 
+}
+.dropdown-toggle::after{
+    display: none;
+    content: "\f107";
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.fa-angle-down:before {
+    font-size: 32px;
+    color: #737f99; 
+}
+.btn-outline-dark, .btn-secondary{
+    border-radius: 0px;
+    border: 0px;
+    width: 200px;
+    position: relative;
+    justify-content: center;
+    color: #343a40;
+    background-color: rgba(240, 248, 255, 0.6);
+    border-color: rgba(240, 248, 255, 0.6);
+    padding: 0px;
+}
+.btn-secondary{
+    height: 48px;
+}
+.btn-outline-dark{
+    height: 60px;
+    margin-bottom: 50px;
+    border-color: aliceblue;
+    background-color: aliceblue;
+}
+#burger{
+    text-align: right;
+}
+#route{
+    display: flex; 
+    justify-content: space-around;
+    margin-bottom: 45px;
+}  
+.select{
+    display: flex;
+    flex-direction: column;
+    height: 235px;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1100px;
+    margin-left: 160px;
+    margin-bottom: 95px;
+}
+.navbar .navbar-toggler-icon{
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=343a40');  
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+}
+
+/* Второй блок */
+
+.Norway{
+    background-color: #fbfbfb;
+    width: 100%;
+    height: 855px;
+    flex-direction: column;
+}
+.headline{
+    flex: 1;
+    height: 150px;
+    width: 200px;
+    position: relative;
+    left: 80px;
+    top: 50px;
+    color:rgb(73, 97, 121);
+}
+.filling{
+    height: 705px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fbfbfb;
+}
+.Europe{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.continent{
+    display: flex;
+    flex-direction: column;
+}
+hr{
+    border-bottom: 1px solid rgb(150, 188, 214);
+}
+.Img{
+    flex: 1;
+    background-image:url(images/dong-zhang-374830-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Третий блок */
+
+.Img1{
+    flex: 1;
+    background-image:url(images/jonathan-riley-118591-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.USA{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    height: 700px;
+    background-color: #fbfbfb;
+}
+.blok2{
+    border-bottom: 1px solid rgb(172, 145, 141);
+}
+
+/*Четвертый блок */
+
+.Img2{
+    flex: 1;
+    background-image:url(images/manuel-cosentino-691602-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Japan{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color: #fbfbfb;
+    width: 100%;
+    height: 700px;
+}
+.blok3{
+    border-bottom: 1px solid rgb(145, 145, 145);
+}
+
+/*Пятый блок */
+
+.services{
+    background-color: #fbfbfb;
+    width: 100%;
+    height: 705px;
+    flex-direction: row;
+}
+.names{
+    display: flex;
+    flex-direction: row;
+    background-color: #fbfbfb;
+    height: 550px;
+    justify-content: space-evenly;
+}
+.arrangements .carrent .concierge{
+    flex: 1;
+    display: flex;
+}
+img{
+    height: 500px;
+}
+.blocImg{
+    position:relative;
+    width: 359px;
+    height: 500px;
+    overflow: hidden;
+    background: #fbfbfb;
+    cursor: pointer;
+}
+.blocImg .text p{
+    display:inline-block;
+    position:absolute;
+    top:420px;   
+    left:30px;
+}
+.text{
+    color: #fff;
+    padding: 0 20px;
+    opacity: 0; 
+    transition: .5s;
+}
+.text p{
+    width: 350px;
+}
+a:hover .text{
+    opacity: 1;
+}
+.blocImg::before,
+.blocImg::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.Description{
+    display: flex;
+    height: 50px;
+    text-align: start;
+    align-items: flex-end;
+    color:rgb(79, 95, 111);
+    text-decoration: none;
+}
+a:hover { 
+    text-decoration: none;
+}
+
+/*Шестой блок */
+
+.safety{
+    width: 100%;
+    height: 950px;
+    background-color: #fbfbfb;
+    flex-direction: column;
+}
+.safety .headline{
+    height: 250px;
+    display: flex;
+    align-items: baseline;
+    text-align: start;
+}
+.Img3{
+    flex: 1;
+    background-image:url(images/colin-maynard-258851-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.control{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.guarantees{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 100%;
+    justify-content: space-around;
+}
+.offers{
+    display: flex;
+    text-align: center;
+    width: 200px;
+    justify-content: space-around;
+}
+
+/*Седьмой блок */
+
+.feedback{
+    width: 100%;
+    height: 640px;
+    background-color: #fbfbfb;   
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.form-group{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: -150px;
+    margin-right: -150px;
+}
+.form-control{
+    border-radius: 0rem;
+}
+.btn-primary{
+    color:rgb(63, 109, 139);
+    background-color: #fbfbfb;
+    border-color: #fbfbfb;
+    border-radius: 0rem;
+}
+.btn-primary:not(:disabled):not(.disabled){
+    cursor: pointer;
+    background-color: #fbfbfb;
+    border-color: #fbfbfb;
+    color: rgb(63, 109, 139);
+}
+
+/*Восьмой блок */
+
+.menu{
+    background-color: #fbfbfb ;
+    width: 100%;
+    height: 197px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.menu .row{
+    flex-wrap: nowrap;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 100%;
+    
+}
+.col a, .col-2 a, .col-3 a{
+    color: rgb(73, 97, 121);
+}
+
+/* Вторая страница */
+.container-fluid1{
+    background-color: rgb(255, 255, 255);
+    height: 3006px;
+    width: 1400px;
+    margin: 0;
+	padding: 0;
+	border: 0;
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;   
+}
+.selection1{
+    width: 100%;
+    height: 800px;
+    background-color: #7fa9a9;
+    background-image: url(images/vidar-nordli-mathisen-660738-unsplash.jpg);
+    opacity: 0.9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.container{
+    width: 100%;
+    height: 1960px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+.row-program{
+    display: flex;
+    flex-direction: row;
+}
+.page2{
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(139, 116, 208);
+    width: 210px;
+}
+.col{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fbfbfb;
+    width: 100%;
+}
+.col p{
+    text-align: left;
+}

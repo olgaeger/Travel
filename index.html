@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charse="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your world</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">       
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container-fluid">
+    <!--Первый блок-->        
+        <div class="selection">
+            <div class="row justify-content-between">
+                <div class="col-4">
+                    <a name="prime"></a>
+                        <font size="4">
+                            <big style="color:rgb(36, 53, 66); line-height: 0.5;">YOUR <br> WORLD</big>
+                        </font>   
+                </div>
+                <div class="col-4" style="text-align:end">
+                    <nav class="navbar navbar-light">
+                        <a class="navbar-brand" href=""></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#direction">Направления</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#services">Услуги</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#safety">Безопасность</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#feedback">Обратная связь</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div style="margin-bottom: -20px;margin-top: -20px;">
+                <h1 class="font-weight-bold">
+                    <big style="color:rgb(36, 53, 66)">YOUR WORLD</big>
+                </h1>                
+                <p class="blockquote text-center">
+                    <font size="4">Создаем уникальные путешествия. Для уникальных людей.</font>
+                </p>
+            </div>
+            <div style="margin-bottom: 30px;">
+                <p>
+                    <font size="5">
+                        Расскажите нам в какую страну Вы хотите отправиться, <br>
+                        и мы прямо сейчас начнем составлять индивидуальный маршрут для Вас. <br>    
+                    </font>
+                </p>
+            </div>
+            <form class="select">
+                <div class="options">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Страна
+                            <i class="fa fa-angle-down"></i>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Норвегия</a>
+                            <a class="dropdown-item" href="#">США</a>
+                            <a class="dropdown-item" href="#">Япония</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Вид отдыха
+                            <i class="fa fa-angle-down"></i>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Экскурсионный</a>
+                            <a class="dropdown-item" href="#">Лечебный</a>
+                            <a class="dropdown-item" href="#">Горнолыжный</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Участники
+                            <i class="fa fa-angle-down"></i>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">1</a>
+                            <a class="dropdown-item" href="#">2</a>
+                            <a class="dropdown-item" href="#">2+1</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Даты поездки
+                            <i class="fa fa-angle-down"></i>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Календарь с возможностью выбора диапазона</a>
+                        </div>
+                    </div>
+                </div>    
+                <div id="route">
+                    <button type="button" class="btn btn-outline-dark">Узнать мой маршрут</button>
+                </div>
+            </form>    
+        </div>
+    <!--Второй блок-->
+        <div class="Norway">
+            <div class="headline">
+                <a name="direction"></a>
+                    <font size="5">
+                        <big>Направления</big>
+                    </font>
+            </div>
+            <div class="filling">
+                <div class="Europe">
+                    <div class="continent" style="margin-bottom: 40px;">
+                        <p style="
+                        margin-top: 70px;
+                        color: rgb(111, 138, 156);
+                        ">ЕВРОПА</p>
+                        <hr style="margin-left: -10px; margin-right: -10px;">
+                    </div>
+                    <div>                        
+                        <h4 style="
+                        margin-bottom: 40px;
+                        color:rgb(63, 109, 139);">Норвегия</h4>
+                    </div>
+                    <div>
+                        <p style="margin-bottom: 40px;">Только лучшие отдаленные уголки<br> 
+                            Норвегии, нетронутая природа, фьорды,<br> 
+                            океан и Вы.
+                        </p>
+                    </div>
+                    <div>
+                        <p style="margin-bottom: 20px;">Никакого городского шума и никаких забот.</p>
+                    </div>
+                    <div>
+                        <a href="index1.html">
+                            <hr style="margin-left: -50px; margin-right: -50px;">
+                            <p style="color:rgb(63, 109, 139);">Узнать больше</p>
+                            <hr style="margin-left: -50px; margin-right: -50px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="Img"></div>
+            </div>
+        </div>
+    <!--Третий блок-->
+        <div class="filling" style="height: 700px;">
+            <div class="Img1"></div>
+            <div class="USA">
+                <div class="continent" style="margin-bottom: 20px; margin-top: -50px;">
+                    <p style="
+                    color:rgb(172, 145, 141);
+                    ">США</p>
+                    <hr class="blok2" style="margin-left: -20px; margin-right: -20px;">
+                </div>
+                <div>                        
+                    <h4 style="
+                    margin-bottom: 40px;
+                    color:rgb(172, 145, 141);">New York</h4>
+                </div>
+                <div>
+                    <p style="margin-bottom: 40px;">У Вас есть возможность полностью изменить свой быт<br> 
+                        и осуществить ту самую "американскую мечту"<br> 
+                        в величайшем городе свободы.
+                    </p>
+                </div>
+                <div>
+                    <a href="#">
+                        <hr class="blok2" style="margin-left: -50px; margin-right: -50px;">
+                        <p style="color:rgb(172, 145, 141); margin-top: 20px;margin-bottom: 25px;">Узнать больше</p>
+                        <hr class="blok2" style="margin-left: -50px; margin-right: -50px;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    <!--Четвертый блок-->        
+        <div class="filling">
+            <div class="Japan">
+                <div class="continent" style="margin-bottom: 20px; margin-top: 50px;">
+                    <p style="
+                    color:rgb(145, 145, 145);
+                    ">ЯПОНИЯ</p>
+                    <hr class="blok3" style="margin-left: -20px; margin-right: -20px;">
+                </div>
+                <div>                        
+                    <h4 style="
+                    margin-bottom: 40px;
+                    color:rgb(145, 145, 145);">Вулкан Фудзияма</h4>
+                </div>
+                <div>
+                    <p style="margin-bottom: 40px;">Легендарный вулкан Фудзияма - символ и самая<br> 
+                        узнаваемая достопримечательность Японии.<br> 
+                        Восхождения на его вершину вдохновляли<br>
+                        альпинистов на протяжении более тысячи лет.
+                    </p>
+                    <p style="margin-bottom: 40px;">
+                        И сейчас Фудзияма покорится Вам без труда, если<br>
+                        Вы обрнатитесь к нам за советом.
+                    </p>
+                </div>
+                <div>
+                    <a href="#">
+                        <hr class="blok3" style="margin-left: -50px; margin-right: -50px;">
+                        <p style="color:rgb(145, 145, 145); margin-top: 20px;margin-bottom: 25px;">Узнать больше</p>
+                        <hr class="blok3" style="margin-left: -50px; margin-right: -50px;">
+                    </a>
+                </div>
+            </div>
+            <div class="Img2"></div>
+        </div>
+    <!--Пятый блок-->        
+        <div class="services">
+            <div class="headline">
+                <a name="services"></a>
+                    <font size="5">
+                        <big>Услуги</big>
+                    </font>
+            </div>
+            <div class="names">
+                <div class="arrangements">
+                    <a href="#">
+                        <div class="blocImg">
+                            <img src="images/julentto-photography-364077-unsplash.jpg" alt="">
+                                <div class="text">
+                                    <p style="text-align: start;">
+                                        Мы позаботились обо всем: от<br>
+                                        оформления документов до трансфера в<br>
+                                        место проживания.
+                                    </p>
+                                </div>
+                        </div>    
+                        <font size="4">
+                            <p class="Description">Организация путешествий</p>
+                        </font>
+                    </a>    
+                </div>
+                <div class="carrent">                        
+                    <a href="#">
+                        <div class="blocImg">
+                            <img src="images/oliver-sjostrom-731492-unsplash.jpg" alt="">
+                                <div class="text">
+                                    <p style="text-align: start; top:10px;">
+                                        При аренде транспорта есть<br>
+                                        возможность заказать водителя со знанием<br> 
+                                        английского языка.
+                                    </p>
+                                </div>
+                        </div>    
+                        <font size="4">
+                            <p class="Description">Аренда любого транспорта</p>
+                        </font>
+                    </a> 
+                </div>
+                <div class="concierge">
+                    <a href="#">
+                        <div class="blocImg">
+                            <img src="images/owen-spencer-500933-unsplash.jpg" alt="">
+                                <div class="text">
+                                    <p style="text-align: start;">
+                                        Мы возьмем на себя роль вашего личного<br> 
+                                        помощника и решим вопросы самого<br>
+                                        разного характера.
+                                    </p>
+                                </div>
+                        </div>  
+                        <font size="4">
+                            <p class="Description">Круглосуточный консьерж-сервис</p>
+                        </font>
+                    </a> 
+                </div>
+            </div>
+        </div>
+    <!--Шестой блок-->        
+        <div class="safety">
+            <div class="headline">
+                <a name="safety"></a>
+                    <font size="5" style="margin-top: 100px;">
+                        <big>Безопасность</big>
+                    </font>
+            </div>
+            <div class="filling">
+                <div class="control">
+                    <div class="continent" style="margin-bottom: 40px;">
+                        <p style="
+                        margin-top: 70px;
+                        color: rgb(111, 138, 156);
+                        ">ВСЕ ПОД КОНТРОЛЕМ</p>
+                        <hr style="margin-left: -15px; margin-right: -15px;">
+                    </div>
+                    <div>
+                        <p style="margin-bottom: 40px;">Вы можете полностью на нас положиться. Мы позаботимся<br> 
+                            о Вас и Вашей семье. В каждой новой стране у Вас будет свой<br> 
+                            человек. Мы окажем поддержку вовремя и качественно.
+                        </p>
+                    </div>
+                    <div>
+                        <font size="4">
+                            <p style="margin-bottom: 40px;">Мы гарантируем</p>
+                        </font>                        
+                    </div>
+                    <div class="guarantees">
+                        <div class="offers" style="height: 135px;">
+                            <a href="#">
+                                <img class="icons" src="images/care.svg" alt="Медицинская помощь" style="
+                                width: 110px;
+                                height: 110px;">
+                                <p style="color:rgb(0, 0, 0);">Медицинскую помощь</p>
+                            </a> 
+                        </div>
+                        <div class="offers" style="height: 125px; margin-top: 10px;">
+                            <a href="#">
+                                <img class="icons" src="images/car.svg" alt="Выезд авто-специалиста" style="
+                                width: 100px;
+                                height: 100px;">
+                                <p style="color:rgba(0,0,0);">Выезд авто-специалиста</p>
+                            </a> 
+                        </div>
+                        <div class="offers" style="height: 140px; margin-top: 25px;">
+                            <a href="#">
+                                <img class="icons" src="images/airplane.svg" alt="Возвращение домой" style="
+                                width: 85px; 
+                                height: 85px;">
+                                <p style="color:rgba(0,0,0);">Возвращение домой<br> по первой просьбе</p>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+                <div class="Img3"></div>
+            </div>
+        </div>
+    <!--Седьмой блок-->        
+        <div class="feedback">
+            <a name="feedback"></a>
+                <font size="5" style="margin-bottom: 4rem; margin-top: 7rem; text-align: center;">
+                    <big style="color:rgb(73, 97, 121);">Все еще сомневаетесь стоит ли именно нам<br>доверить Ваше путешествие мечты?</big>
+                </font>
+            <p style="margin-bottom: 40px; color: rgb(73, 97, 121);">Мы понимаем Вас, как никто другой. А еще мы знаем, что каждый наш клиент - это индивидуальность.<br> 
+                И чтобы помочь Вам определиться, мы готовы уже сейчас выслать Вам индивидуальную карту<br> 
+                достопримечательностей, в соответствии с Вашими пожеланиями.
+            </p>
+            <p style="margin-bottom: 1rem; margin-top: 1rem; color: rgb(73, 97, 121);">Для этого просто оставьте Ваш E-mail.</p>
+            <form>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
+                </div>
+                <hr style="margin-left: -5px; margin-right: -5px; margin-bottom: 15px; border-bottom: 1px solid rgb(76, 108, 139);">
+                <button type="submit" class="btn btn-primary">
+                    <small>Спасибо, я посмотрю карту!</small>
+                </button>
+                <hr style="margin-left: -5px; margin-right: -5px; margin-top: 15px; border-bottom: 1px solid rgb(76, 108, 139);">
+            </form>    
+        </div>
+    <!--Восьмой блок-->        
+        <div class="menu">
+            <div class="row" style="margin-top: 0px;">
+                <div class="col" style="margin-top: 10px;">
+                    <a href="#">
+                        <font size="4">
+                            <big style="color:rgb(41, 65, 83); line-height: 0.5;">YOUR <br> WORLD</big>
+                        </font>
+                    </a>
+                </div>
+                <div class="col-3" style="margin-top: 30px;padding-left: 0px;padding-right: 0px;margin-left: 17px;">
+                    <div class="social">
+                        <div style="margin-top: -5px; margin-right: 5px;" >
+                            <a href="https://vk.com/">
+                                <img class="icon" src="images/vk-social-network-logo.svg" alt="ВК" style="height: 40px;
+                                width: 40px;">
+                            </a> 
+                        </div>
+                        <div style="margin-left: 5px; margin-right: 5px;">
+                            <a href="https://www.instagram.com/">
+                                <img class="icon" src="images/instagram-icon.svg" alt="Инстраграм">
+                            </a> 
+                        </div>
+                        <div style="margin-left: 5px; margin-right: 5px;">
+                            <a href="https://www.facebook.com/">
+                                <img class="icon" src="images/facebook.svg" alt="Facebook">
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="margin-top: 30px;">
+                    <a href="#direction">Направления</a>
+                </div>
+                <div class="col" style="margin-top: 30px;">
+                    <a href="#services">Услуги</a>
+                </div>
+                <div class="col-2" style="margin-top: 30px;">
+                    <a href="#safety">Ваша безопасность</a>
+                </div>
+                <div class="col-3" style="margin-top: 30px;">
+                    <a href="#">Карта достопримечательностей</a>
+                </div>
+                <div class="col" style="margin-top: 30px;">
+                    <a href="#">Контакты</a>
+                </div>
+                <div class="col" style="margin-top: 30px;">
+                    <a href="#">Партнеры</a>
+                </div>
+            </div>
+        </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
